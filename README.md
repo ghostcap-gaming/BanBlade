@@ -6,7 +6,8 @@ BanBlade is the next generation of ban management for Counter Strike 2, designed
 
 We've developed this so it's as lightweight as possible, while also making it easy to install on most peoples existing game server stack. Please keep in mind this is in beta. Our vision is to architect a system that will not only carry CS2 servers through the next 10 years, but also to ensure it's structured flexibly. This way, if you ever decide to transition to another platform or create your own web panel, accessing your bans will be seamless and hassle-free.
 
-**🚀 Features:**
+## 🚀 Features
+
 - **Directly Ban/Unban from Discord**: No need to log into any separate systems.
 - **Server Mods No More**: Operate seamlessly without the need for any mods on your CS2 server.
 - **Smart Player Search**: Even partial names can be searched with precision.
