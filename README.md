@@ -9,6 +9,7 @@ We've developed this so it's as lightweight as possible, while also making it ea
 ## 🚀 Features
 
 - **Directly Ban/Unban from Discord**: No need to log into any separate systems.
+- **RBAC**: Simply assign permissions to roles in Discord, no need to add any further rules.
 - **Server Mods No More**: Operate seamlessly without the need for any mods on your CS2 server.
 - **Smart Player Search**: Even partial names can be searched with precision.
 - **Supports Multiple Servers**: One bot, multiple servers. Centralize your control.
