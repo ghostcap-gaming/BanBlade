@@ -26,8 +26,10 @@ Possible Future Updates
 
 - **MySQL 8.0** or above
 - **Python Bot Hosting**
-- **Rcon Access** (Optional)
-- **Pterodactyl or WISP Panel** (Optional)
+- **Rcon Access** (Optional*)
+- **Pterodactyl or WISP Panel** (Optional*)
+
+* You must use either Rcon, Pterodactyl or WISP
 
 ## 📜 Commands
 All commands are ran through Discord right now as there is no companion plugin.
