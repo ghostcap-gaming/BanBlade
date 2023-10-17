@@ -4,6 +4,10 @@ Brought to you by **GhostCap**.
 
 BanBlade is the next generation of ban management for Counter Strike 2, designed exclusively for Discord. Say goodbye to old school systems like Sourcebans++ and embrace the future with BanBlade. This revolutionary system provides an intuitive and real-time experience without the need for a clunky web interface that gets outdated every year. Players can check their ban status directly within Discord, ensuring swift and clear communication.
 
+![screenshot](https://i.imgur.com/93j4Vsi.png)
+
+The goal is to be simple to use for any staff member and user, no matter their experience level. Everyone will be shown the same information to ensure everyone is on the same page with how and why they were punished. 
+
 We've developed this so it's as lightweight as possible, while also making it easy to install on most peoples existing game server stack. Please keep in mind this is in beta. Our vision is to architect a system that will not only carry CS2 servers through the next 10 years, but also to ensure it's structured flexibly. This way, if you ever decide to transition to another platform or create your own web panel, accessing your bans will be seamless and hassle-free.
 
 **Everything here is subject to change!**
@@ -19,8 +23,10 @@ We've developed this so it's as lightweight as possible, while also making it ea
 - **Integration with Panels**: Directly talks to Pterodactyl and WISP panels using their application API for more security.
 
 Possible Future Updates
+- Reason tracking and history.
 - Companion plugin to help communicate with the database and monitor in game chat using AI.
-- Communications bans. These would be the same way Valorant handles things as the existing gag/mute way is antiquated. This would auto support incremential punishments if a player keeps offending. 
+- Communications bans. These would be the same way Valorant handles things as the existing gag/mute way is antiquated. This would auto support incremential punishments if a player keeps offending.
+- Multi game support.
 
 ## 📜 Requirements
 
