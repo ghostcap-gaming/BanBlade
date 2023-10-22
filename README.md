@@ -17,15 +17,16 @@ We've developed this so it's as lightweight as possible, while also making it ea
 - **Directly Ban/Unban from Discord**: No need to log into any separate systems.
 - **RBAC**: Simply assign permissions to roles in Discord, no need to add any further rules.
 - **Server Mods Not Required**: BanBlade is designed to work without the need for a modded server giving you the basic ability to manage any server.
-- **Auto punishment tracking**: Never worry about "have I punished this person before", everything is handled automatically with incremental punishments.
+- **Automatic punishment tracking**: Never worry about "have I punished this person before", everything is handled automatically with incremental punishments.
 - **Supports Multiple Servers**: One bot, multiple servers. Centralize your control.
+- **Automatic Communications Bans**: Is a player being toxic in chat? Silence or ban toxic players instantly without admin intervention.
 - **No Rcon Requirement**: BanBlade works without the need for rcon.
 - **Integration with Panels**: Directly talks to Pterodactyl and WISP panels using their application API for more security.
 
 Possible Future Updates
 - Companion plugins to help communicate with the database and monitor in game voice chat using AI.
-- Communications bans. These would be the same way Valorant handles things, as the existing gag/mute way is antiquated. This would auto support incremental punishments if a player keeps offending.
 - Multi game support (Anything that runs on Pterodactyl or WISP)
+- Live Alerts: Get alerted on Discord when a player is being toxic on your servers.
 
 ## 📜 Requirements
 
