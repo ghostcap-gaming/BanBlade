@@ -1,0 +1,82 @@
+{
+  // Pterodactyl game server instances configuration
+  // Each object represents a server controlled via the Pterodactyl panel.
+  "pterodactyl_instances": [
+    {
+      "instance_id": "b97935b7",
+      "server_name": "CS2 PUG Server",
+      "game_id": "cs2"
+    },
+    {
+      "instance_id": "c0b4aa80",
+      "server_name": "CSGO PUG Classic",
+      "game_id": "csgo"
+    }
+    // Add more Pterodactyl instances as needed
+  ],
+
+  // WISP game server instances configuration (optional)
+  // Similar to the Pterodactyl instances but for servers controlled via WISP.
+  "wisp_instances": [
+    // Example:
+    // {
+    //   "instance_id": "example-instance-id",
+    //   "server_name": "example-server-name",
+    //   "game_id": "example-game-id"
+    // }
+    // Add more WISP instances as needed
+  ],
+
+  // Rcon instances for direct server communication (optional)
+  // These instances allow direct commands via Rcon protocol.
+  // WE SUGGEST YOU ONLY USE THIS AS A LAST RESORT!
+  "rcon_instances": [
+    // Example:
+    // {
+    //   "address": "ip:port",
+    //   "password": "rcon-password",
+    //   "server_name": "example-server-name",
+    //   "game_id": "example-game-id"
+    // }
+    // Add more Rcon instances as needed
+  ],
+
+  // Game-specific command configurations
+  // Defines the command templates used in different games.
+  "games": {
+    "csgo": {
+      "commands": {
+        "kick": "kick {player}",
+        "ban": "bb_ban {player} {duration} {reason}",
+        "silence": "bb_silence {player} {duration} {reason}",
+        "remove_ban": "bb_rban {player}",
+        "remove_silence": "bb_rsilence {player}"
+      }
+    },
+    "cs2": {
+      "commands": {
+        "kick": "kick {player}",
+        "ban": "bb_ban {player} {duration} {reason}",
+        "silence": "bb_silence {player} {duration} {reason}",
+        "remove_ban": "remove_ban {player}",
+        "remove_silence": "remove_silence {player}"
+      }
+    }
+    // Add more game command configurations as needed
+  },
+
+  // Configuration for Discord role-based permissions.
+  // This section outlines the hierarchy of roles in relation to game moderation commands. Each role is associated with specific privileges, creating a tiered access structure. 
+  // - The 'silence' role represents the most basic level of moderation authority, permitting users only to silence other players.
+  // - Users with the 'kick' role inherit 'silence' permissions and additionally have the ability to remove players from the game temporarily.
+  // - The 'ban' role is the highest level of authority, encompassing all lower-tier permissions and exclusively allowing the permanent removal of players from the game.
+  // It's possible to assign the same Discord role to multiple tiers, effectively granting that role the combined permissions of those tiers.
+
+  "discord": {
+    "roles": {
+      "silence": "839123456789123456",
+      "kick": "839123456789654321",
+      "ban": "839123456789987654"
+    }
+  }
+}
