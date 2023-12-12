@@ -2,6 +2,8 @@
 
 Brought to you by **GhostCap**.
 
+Edit: Development has been halted on just a CS2/Source version for now while we focus on something that can work for any game.
+
 BanBlade is the next generation of ban management for Counter Strike 2, designed exclusively for Discord. Say goodbye to old school systems like Sourcebans++ and embrace the future with BanBlade. This revolutionary system provides an intuitive and real-time experience without the need for a clunky web interface that gets outdated every year. Players can check their ban status directly within Discord, ensuring swift and clear communication.
 
 ![screenshot](https://i.imgur.com/93j4Vsi.png)
