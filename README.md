@@ -1,16 +1,12 @@
-# BanBlade: Next generation ban management for Counter Strike 2
+# BanBlade: Next generation game ban management for gaming communities
 
-Brought to you by **GhostCap**.
-
-Edit: Development has been halted on just a CS2/Source version for now while we focus on something that can work for any game.
-
-BanBlade is the next generation of ban management for Counter Strike 2, designed exclusively for Discord. Say goodbye to old school systems like Sourcebans++ and embrace the future with BanBlade. This revolutionary system provides an intuitive and real-time experience without the need for a clunky web interface that gets outdated every year. Players can check their ban status directly within Discord, ensuring swift and clear communication.
+BanBlade is the next generation of ban management for gaming communities, designed exclusively for Discord. Say goodbye to old school systems like Sourcebans++ or litebans, and embrace the future with BanBlade. This revolutionary system provides an intuitive and real-time experience without the need for a clunky web interface that gets outdated every year. Players can check their ban status directly within Discord, ensuring swift and clear communication.
 
 ![screenshot](https://i.imgur.com/93j4Vsi.png)
 
 The goal is to be simple to use for any staff member and user, no matter their experience level. Everyone will be shown the same information to ensure everyone is on the same page with how and why they were punished. 
 
-We've developed this so it's as lightweight as possible, while also making it easy to install on most peoples existing game server stack. Please keep in mind this is in beta. Our vision is to architect a system that will not only carry CS2 servers through the next 10 years, but also to ensure it's structured flexibly. This way, if you ever decide to transition to another platform or create your own web panel, accessing your bans will be seamless and hassle-free.
+We've developed this so it's as lightweight as possible, while also making it easy to install on most peoples existing game server stack.
 
 **Everything here is subject to change!**
 
@@ -23,11 +19,10 @@ We've developed this so it's as lightweight as possible, while also making it ea
 - **Supports Multiple Servers**: One bot, multiple servers. Centralize your control.
 - **Automatic Communications Bans**: Is a player being toxic in chat? Silence or ban toxic players instantly without admin intervention.
 - **No Rcon Requirement**: BanBlade works without the need for rcon.
-- **Integration with Panels**: Directly talks to Pterodactyl and WISP panels using their application API for more security.
+- **Integration with Panels**: Directly talks to Pterodactyl panel using their client API for more security than RCON.
 
 Possible Future Updates
 - Companion plugins to help communicate with the database and monitor in game voice chat using AI.
-- Multi game support (Anything that runs on Pterodactyl or WISP)
 - Live Alerts: Get alerted on Discord when a player is being toxic on your servers.
 
 ## 📜 Requirements
@@ -35,10 +30,10 @@ Possible Future Updates
 - **MySQL 8.0** or above
 - **Python Bot Hosting**
 - **Rcon Access** (Optional*)
-- **Pterodactyl or WISP Panel** (Optional*)
+- **Pterodactyl** (Optional*)
 - **Perspective API** (Optional)
 
-* You must use either Rcon, Pterodactyl or WISP
+* You must use either Rcon or Pterodactyl
 
 ## 📜 Commands
 Here are the commands for Discord. Anyone is able to run the /check commands but only DIscord roles with permissions will be able to interact with punishments.
